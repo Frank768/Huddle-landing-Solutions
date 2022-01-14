@@ -1,0 +1,69 @@
+
+    body {
+    background-image: url(../assets/images/bg-desktop.svg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section {
+    display: flex;
+    height: 90vh;
+}
+
+.container-presentation {
+    width: 65%;
+    height: 100%;
+    background-image: none;
+    margin-bottom: 0;
+}
+
+.header-logo{
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.container-presentation-img {
+    width: auto;
+    height: 85%;
+}
+
+.container-presentation-img img {
+    left: calc(50% - 275px);
+    top: calc(50% - 225px);
+    width: 550px;
+    height: 450px;
+}
+
+.img-presentation {
+    width: 100%;
+    height: 100%;
+}
+
+.container-information {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    text-align:left; 
+}
+
+.container-information h1{
+    width: 250px;
+    font-size: 2rem;
+    margin-top: 210px;
+    text-align: left;
+    padding: 0;
+}
+
+.container-information p{
+    text-align: left;
+    padding: 0;
+}
+footer {
+    text-align: right;
+    height: 10vh;
+    margin-bottom: 0;
+    padding: 50px 40px;
+}
